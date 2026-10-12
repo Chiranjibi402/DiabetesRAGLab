@@ -1,0 +1,3 @@
+strategy,chunk_count,average_chunk_size_chars,min_chunk_size_chars,max_chunk_size_chars,questions_successful,retrieval_accuracy_percent,notes
+naive,17,489.71,333,500,,,Fill accuracy after manually reviewing the retrieved evidence.
+structure_aware,13,569.46,343,887,,,Fill accuracy after manually reviewing the retrieved evidence.
