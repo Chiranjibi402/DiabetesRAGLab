@@ -21,7 +21,7 @@ QUESTIONS = [
     "Name two macrovascular complications of diabetes.",
     "How often should HbA1c be monitored in someone with stable Type 2 diabetes?",
     "What blood glucose target range is recommended for most adults with Type 2 diabetes?",
-    "What symptoms should prompt someone to seek emergency medical care?",
+     "What symptoms should prompt someone to seek emergency medical care?",
 ]
 
 
