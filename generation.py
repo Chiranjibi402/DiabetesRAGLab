@@ -7,7 +7,7 @@ def answer_with_llm(question, retrieved_chunks, model=None):
     if not api_key:
         raise RuntimeError(
             "OPENAI_API_KEY is missing. Set it before using --llm, "
-            "or run retrieval-only mode without --llm."
+             "or run retrieval-only mode without --llm."
         )
 
     client = OpenAI(api_key=api_key)
