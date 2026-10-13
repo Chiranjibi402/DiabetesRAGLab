@@ -36,7 +36,7 @@ def structure_aware_chunk(text: str, max_size: int = 1000) -> list[str]:
 
         for paragraph in paragraphs:
             current_text = "\n\n".join(current).strip()
-            proposed = "\n\n".join(p for p in (current_text, paragraph) if p).strip()
+             proposed = "\n\n".join(p for p in (current_text, paragraph) if p).strip()
 
             if len(proposed) <= max_size:
                 current.append(paragraph)
